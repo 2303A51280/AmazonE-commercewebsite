@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon Clone - Products</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Amazon Clone</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="category.html">Products</a>
+      <a href="cart.html">Cart 🛒 (<span id="cart-count">0</span>)</a>
+    </nav>
+  </header>
+
+  <!-- Product Listing -->
+  <section class="products">
+    <div class="product">
+      <img src="https://via.placeholder.com/150" alt="Product 1">
+      <h3>Wireless Headphones</h3>
+      <p>₹1999</p>
+      <button onclick="addToCart('Wireless Headphones',1999)">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/150" alt="Product 2">
+      <h3>Smart Watch</h3>
+      <p>₹2999</p>
+      <button onclick="addToCart('Smart Watch',2999)">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/150" alt="Product 3">
+      <h3>Bluetooth Speaker</h3>
+      <p>₹1499</p>
+      <button onclick="addToCart('Bluetooth Speaker',1499)">Add to Cart</button>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
